@@ -1,0 +1,12 @@
+{
+  "name": "Ineza Company Limited",
+  "short_name": "Ineza",
+  "description": "Recruitment, training, and fleet services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF6",
+  "theme_color": "#1D331A",
+  "icons": [
+    { "src": "/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

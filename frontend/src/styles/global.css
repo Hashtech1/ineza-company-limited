@@ -1,0 +1,42 @@
+@import "./variables.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-bone);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+*:focus-visible {
+  outline: 2px solid #4a7f3d;
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #d68a3c;
+  color: #fdfbf6;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

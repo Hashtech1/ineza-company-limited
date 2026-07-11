@@ -1,0 +1,26 @@
+:root {
+  --color-ink: #101815;
+  --color-moss-900: #1d331a;
+  --color-moss-700: #2e5126;
+  --color-moss-500: #4a7f3d;
+  --color-clay-500: #d68a3c;
+  --color-sand: #f7f3ea;
+  --color-bone: #fdfbf6;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+
+  --shadow-card: 0 1px 2px rgba(16, 24, 21, 0.06), 0 8px 24px rgba(16, 24, 21, 0.06);
+
+  --transition-base: 180ms ease;
+}
+
+[data-theme="dark"] {
+  --color-bone: #10160f;
+  --color-sand: #16201a;
+  --color-ink: #f4f1ea;
+}
